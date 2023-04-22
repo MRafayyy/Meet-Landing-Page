@@ -1,0 +1,595 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main-container {
+
+    width: 100%;
+    position: relative;
+}
+
+.logo-container {
+    width: 100%;
+    height: 13vh;
+}
+
+.logo {
+    /* width: 8%; */
+    width: 110px;
+    margin: auto;
+    display: block;
+    margin-top: 3%;
+}
+
+
+
+
+.front-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-x: clip;
+}
+
+.front-1 {
+    width: 27%;
+    /* width: 359px; */
+    height: 275px;
+    min-width: 336px;
+    position: relative;
+    left: -18px;
+
+}
+
+.front-2 {
+    width: 33%;
+    /* width: 460px; */
+    min-width: 232px;
+    text-align: center;
+    flex-shrink: 3;
+}
+
+.front-2 h1 {
+    font-size: 4rem;
+    padding: 0% 1%;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.front-2 p {
+    font-size: 1rem;
+}
+
+.front-2 .buttons {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5%;
+}
+
+.btn-1 {
+    border-radius: 39px;
+    padding: 3.3% 0%;
+    width: 27%;
+    width: 139px;
+    color: white;
+    background-color: #5395a9;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+}
+
+
+.btn-2 {
+
+    color: white;
+    background-color: #865cb1;
+    border: none;
+    border-radius: 38px;
+    padding: 3.3% 1%;
+    width: 27%;
+    width: 117px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+}
+
+
+.front-3 {
+    width: 27%;
+    /* width: 359px; */
+    height: 271px;
+    min-width: 336px;
+    position: relative;
+    top: 39px;
+    right: -24px;
+}
+
+
+
+
+.number-1 {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    color: #707070;
+    font-size: 1rem;
+    position: relative;
+    margin: auto;
+    border: 1px solid #707070;
+    border-radius: 23px;
+    margin-top: 14%;
+    margin-bottom: 5%;
+}
+
+.number-1::before {
+    content: "";
+    position: absolute;
+    width: 1%;
+    height: 95px;
+    top: -96px;
+    right: 18px;
+
+    background-color: #707070;
+}
+
+
+
+
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+
+    margin-bottom: 10%;
+
+}
+
+.b-img {
+    width: 17%;
+    width: 20%;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.section-1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 14%;
+}
+
+.s1-text-1 {
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #5395a9;
+}
+
+.s1-text-2 {
+    font-size: 2rem;
+    width: 24%;
+    margin: auto;
+    margin-bottom: 2%;
+    font-weight: 900;
+}
+
+.s1-text-3 {
+    width: 33%;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.number-2 {
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    padding-top: 11px;
+    color: #707070;
+    font-size: 1rem;
+    position: relative;
+    margin: auto;
+    border: 1px solid #707070;
+    border: 1px solid #cbcbcb;
+    border-radius: 23px;
+    margin-top: 14%;
+    /* margin-bottom: 5%; */
+    bottom: -18px;
+    z-index: 10;
+    background-color: white;
+}
+
+.number-2::before {
+    content: "";
+    position: absolute;
+    width: 1%;
+    height: 95px;
+    top: -96px;
+    right: 20px;
+    background-color: #707070;
+}
+
+
+
+
+
+
+
+.footer {
+
+    width: 100%;
+    height: 37vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    color: white;
+    background-color: #318199;
+    z-index: 3;
+
+}
+
+.footer::before {
+    content: " ";
+    position: absolute;
+    background-image: url(assets/desktop/image-footer.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+
+
+.footer-h1 {
+    width: 21%;
+}
+
+.footer-p {
+    width: 21%;
+
+}
+
+.footer-btn {
+    border-radius: 39px;
+    padding: 1.1% 0%;
+    width: 12%;
+    width: 172px;
+    /* width: 139px; */
+    color: white;
+    background-color: #865cb1;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+}
+
+.diff-color-1 {
+    color: #8dd7e9;
+}
+
+.diff-color-2 {
+    color: #d8b1fb;
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    .front-page {
+
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .front-1 {
+        min-width: 376px;
+        height: 279px;
+        left: 0;
+    }
+
+    .front-3 {
+        order: 2;
+        min-width: 376px;
+        height: 279px;
+        top: 0;
+        right: 0;
+    }
+
+    .front-2 {
+        order: 3;
+        width: 469px;
+    }
+
+
+    .boxes {
+        gap: 1rem;
+    }
+
+    .s1-text-2 {
+        font-size: 2rem;
+
+        width: 357px;
+    }
+
+    .s1-text-3 {
+
+        width: 556px;
+    }
+
+    .footer {}
+
+    .footer-h1 {
+        width: 29%;
+    }
+
+    .footer-p {
+        width: 30%;
+    }
+
+    .footer-btn {
+        padding: 15px 0%;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .front-page {
+        gap: 0.7rem;
+    }
+    .front-1 {
+        width: 49%;
+        height: 5%;
+        min-width: 237px;
+        min-height: 190px;
+        left: 0;
+    }
+
+    .front-2 {
+
+        width: 328px;
+    }
+
+    .front-2 h1 {
+        font-size: 3rem;
+    }
+
+
+    .front-3 {
+        width: 48%;
+        height: 5%;
+        order: 2;
+        min-width: 376px;
+        /* height: 279px; */
+        top: 0;
+        min-width: 227px;
+        min-height: 190px;
+        right: 0;
+    
+    }
+
+
+
+
+
+    .number-1{
+        margin-top: 166px;
+    margin-bottom: 7%;
+    }
+
+
+
+
+
+    .boxes {
+        gap: 1rem;
+        margin-bottom: 12%;
+        flex-wrap: wrap;
+    }
+
+    .b-img {
+    width: 41%;
+    }
+
+
+
+
+    .s1-text-2 {
+        width: 69%;
+    }
+
+    .s1-text-3 {
+        width: 69%;
+    }
+
+
+
+
+
+    .number-2{
+        margin-top: 26%;
+    }
+
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-h1 {
+        width: 436px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .footer-p {
+
+        width: 441px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+    .front-page {
+        gap: 0rem;
+    }
+    .front-1 {
+        width: 48%;
+        min-width: 0;
+        height: 5%;
+        min-height: 0;
+        left: -9px;
+    }
+
+    .front-2 {
+       
+        width: 73%;
+    }
+
+    .front-3 {
+        width: 46%;
+        height: 5%;
+        min-width: 0;
+        min-height: 0;    
+        top: 0;
+        right: -9px;
+    }
+
+
+    .front-2 h1 {
+        font-size: clamp(2rem, 0.5vw + 2.5rem, 3rem);
+        font-size: 3rem;
+        font-size: clamp(1rem, 6.5vw + 1rem, 7rem);
+    }
+    
+    .front-2 p {
+        font-size: clamp(0.5rem, 0.5vw + 1.5rem, 2rem);
+        font-size: 1rem;
+    }
+
+    .front-2 .buttons {
+        
+        gap: 1rem;
+        margin-top: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .number-1 {
+        margin-top: 112px;
+        margin-bottom: 7%;
+    }
+
+    .number-1::before {
+ 
+        height: 95px;
+        top: -96px;
+        right: 18px;
+    }
+
+    .s1-text-1 {
+        font-size: clamp(0.5rem, 1vw + 0.5rem, 2rem);
+        font-size: 0.8rem;
+        
+    }
+    .s1-text-2 {
+        width: 69%;
+        font-size: 1.3rem;
+        font-size: clamp(0.7rem, 1.3vw + 1rem, 2rem);
+    }
+    
+    .s1-text-3 {
+        width: 69%;
+        font-size: 0.6rem;
+        font-size: clamp(0.6rem, 0.4vw + 0.6rem, 2rem);
+    }
+    .number-2 {
+        margin-top: 25%;
+    }
+
+    .number-2::before {
+        height: 68px;
+        top: -69px;
+        right: 20px;
+    }
+    
+    
+    .footer-h1 {
+        
+        width: 96%;
+        margin: 0% auto;
+        margin-bottom: 0;
+        margin-top: 12%;
+        font-size: 1.3rem;
+        font-size: clamp(1rem, 1.3vw + 1rem, 3rem);
+    }
+
+    .footer-p {
+        width: 79%;
+        margin: 2% auto;
+        display: block;
+        text-align: center;
+        font-size: clamp(0.8rem, 0.3vw + 0.6rem, 2rem);
+        font-size: 0.8rem;
+    }
+
+    .footer-btn {
+        padding: 9px 0%;
+        font-size: 0.7rem;
+    }
+
+
+
+}
